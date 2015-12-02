@@ -3,5 +3,11 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_location_choice">LocationChoice</string>
     <string name="title_activity_map">Map</string>
+<<<<<<< Temporary merge branch 1
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+=======
     <string name="title_activity_custom_input">CustomInput</string>
+>>>>>>> Temporary merge branch 2
 </resources>
