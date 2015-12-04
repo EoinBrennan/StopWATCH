@@ -3,10 +3,13 @@
 <LinearLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contentcustominputlayout"
+    >
 
     <LinearLayout
-        android:layout_height="480dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:layout_width="match_parent"
         android:orientation="vertical"
         xmlns:android="http://schemas.android.com/apk/res/android">
@@ -55,7 +58,7 @@
         android:layout_height="64dp"
         android:gravity="center|bottom"
         android:orientation="horizontal"
-        android:layout_alignParentBottom="true"
+        android:layout_alignBottom="@id/contentcustominputlayout"
         android:background="@color/background"
         >
 
